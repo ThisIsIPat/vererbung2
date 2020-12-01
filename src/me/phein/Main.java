@@ -8,8 +8,8 @@ public class Main {
 
         Kanu fixedKanu2 = (Kanu) kanu2;
         kanu2.setName("Marine");
-	    System.out.println(kanu2.toString());
 
+	    System.out.println(kanu2.toString());
 	    System.out.println(fixedKanu2.getSitzPlaetze());
     }
 }
