@@ -2,14 +2,12 @@ package me.phein;
 
 public class Main {
     public static void main(String[] args) {
-        Schiff kanu1 = new Kanu("Columbus", 2);
-        Schiff kanu2 = new Kanu("Sven", "rot", 1);
-        Kanu kanu3 = new Kanu("Titanic", "weiss", 4);
+        Schiff schiff1 = new Kanu("Columbus", 2);
+        Schiff schiff2 = new Kanu("Sven", "rot", 1);
+        Schiff schiff3 = new Kanu("Titanic", "weiss", 4);
+        Schiff schiff4 = new Kreuzfahrtschiff("Wings", "gold");
 
-        Kanu fixedKanu2 = (Kanu) kanu2;
-        kanu2.setName("Marine");
-
-	    System.out.println(kanu2.toString());
-	    System.out.println(fixedKanu2.getSitzPlaetze());
+	    schiff3.move();
+	    schiff4.swim();
     }
 }
